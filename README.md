@@ -1,37 +1,82 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lists</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://atuin.ru/demo/ripples/jquery.ripples.js"></script>
+</head>
+<style type="text/css">
+	body{
+		
+		background-color: #551125;
+		margin: 0px;
+		padding: 0px;
+	}
+	.full-landing-image{
+		width: 100%;
+		height: 90vh;
+		background: url('file:///C:/Users/Владимир/YandexDisk/Скриншоты/2019-07-05_01-18-19.png')no-repeat center;
+		background-size: cover;
+	}
+.Txt {
+    font-size: 79px;
+    font-weight: bold;
+    line-height: 0;
+    position: middle;
+    display: inline-block;
+    margin: .25px;
+    padding: .5px .75px;
+    text-align: center;
+    /* Color fallback */
+    color: #fff;
+    -webkit-background-clip: text;
 
-You can use the [editor on GitHub](https://github.com/SaltF1/Vampire.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+    -webkit-text-fill-color: transparent;
+}
+.Txt{
+    background-image: url('https://99px.ru/sstorage/86/2017/05/11005171109105486.gif');
+}
+.pgif{
+	width: 80px;
+	background-image: url('https://i.ytimg.com/vi/isViMCDPUYg/maxresdefault.jpg');
+}
+a{
+	
+	color: #E9C2F5;
+	font-size: 49px;
+    font-weight: bold;
+    line-height: 2;
+    position: middle;
+    display: inline-block;
+    margin: .45px;
+    padding: .7px .85px;
+    text-align: center;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+</style>
+<body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	<div class="Txt">
+	<h1>✭Gloomy Night✭</h1>
+	<div class="pgif">
+		
+	</div>
+    </div>
+    <div class="fog"><div></div>
+    <a href="https://twitter.com/MLPButterPop"> @MLPButterPop</a>
+	<div class="full-landing-image">
+		
+	</div></div>
+<script type="text/javascript">
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SaltF1/Vampire.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	$('.full-landing-image').ripples({
+    resolution: 300,
+    dropRadius: 20,
+    perturbance: 0.05
+});
+ 
+</script>
+</body>
+</html>
