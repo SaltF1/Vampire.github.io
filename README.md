@@ -16,7 +16,7 @@
 	.full-landing-image{
 		width: 100%;
 		height: 90vh;
-		background: url('file:///C:/Users/Владимир/YandexDisk/Скриншоты/2019-07-05_01-18-19.png')no-repeat center;
+		background: url('https://ton.twitter.com/1.1/ton/data/dm/1146918586751115271/1146918543407165441/BphaobPK.jpg:large')no-repeat center;
 		background-size: cover;
 	}
 .Txt {
